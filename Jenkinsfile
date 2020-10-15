@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Push'){
 			steps{
-				sh './scrtips/push.sh'
+				sh './scripts/push.sh'
 			}
 				
 		}
